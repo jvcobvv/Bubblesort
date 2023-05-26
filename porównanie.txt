@@ -1,0 +1,14 @@
+Pierwszy kod reprezentuje klasę o nazwie "BubbleSort". Zawiera dwie metody: konstruktor i metodę "main". Klasa ma wersję główną (major version) o numerze 61 i wersję mniejszą (minor version) o numerze 0.
+Metoda konstruktora jest publiczna i nie przyjmuje żadnych argumentów. Jej ciało składa się z dwóch instrukcji: załadowania obiektu (aload_0) i wywołania konstruktora klasy Object ("<init>").
+Metoda "main" jest publiczna i statyczna. Przyjmuje tablicę łańcuchów znaków jako argument. Ciało metody wykonuje sortowanie bąbelkowe na tablicy liczb całkowitych. Tworzy tablicę o rozmiarze 6 i wypełnia ją liczbami. Następnie wywołuje metodę "bubbleSort" na tej tablicy. Po sortowaniu drukuje posortowaną tablicę za pomocą metody "print" obiektu "System.out".Metoda "bubbleSort" jest publiczna i statyczna. Przyjmuje tablicę liczb całkowitych jako argument. Ciało metody wykonuje sortowanie bąbelkowe na tej tablicy.
+Drugi kod reprezentuje klasę o nazwie "BubbleSortKt". Jest to klasa finalna, co oznacza, że nie może być dziedziczona. Zawiera jedną metodę o nazwie "main", która jest publiczna.Metoda "main" przyjmuje tablicę łańcuchów znaków jako argument. Przed wykonaniem metody, na tym argumencie została umieszczona adnotacja "@NotNull", oznaczająca, że argument nie może być wartością null.
+Ciało metody jest podobne do pierwszego kodu. Tworzy tablicę o rozmiarze 6 i wypełnia ją liczbami. Następnie drukuje posortowaną tablicę.
+
+Różnice w strukturze kodu:
+
+Pierwszy kod jest napisany w języku Java, podczas gdy drugi kod jest napisany w języku Kotlin.
+Pierwszy kod zawiera dodatkowe informacje, takie jak informacje o puli stałych, linie kodu, tablice lokalnych zmiennych, informacje o typach itp. Drugi kod ma bardziej skondensowaną strukturę.
+Pierwszy kod zawiera adnotacje i informacje o wersji kompilatora (minor i major version). Drugi kod nie zawiera tych informacji.
+Pierwszy kod korzysta z klas i metod z pakietu "java.lang". Drugi kod korzysta z klas i metod z pakietu "kotlin.jvm" i "org.jetbrains.annotations".
+Struktura metod "main" w obu kodach jest nieco inna. W pierwszym kodzie metoda "main" jest statyczna, natomiast w drugim kodzie nie ma takiej informacji, ale użyto adnotacji "JvmStatic", co w Kotlinie oznacza, że metoda jest statyczna.
+To są najważniejsze różnice między tymi dwoma kodami. Oba wykonują podobną funkcję sortowania bąbelkowego, ale różnią się w strukturze, składni i użytych językach programowania.
